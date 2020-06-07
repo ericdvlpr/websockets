@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Sockets</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-   <h1>HELLO WEBSOCKTS</h1>
+    <div id="mario-chat">
+        <div id="chat-window">
+            <div id="output">
+
+            </div>
+            <div id="feedback">
+                
+            </div>
+        </div>
+        <input type="text" placeholder="Handle" id="handle">
+        <input type="text" placeholder="Message" id="message">
+        <button id="send">Send</button>
+    </div>
+    
+
+
+   <script src="/chat.js"></script>
 </body>
 </html>
